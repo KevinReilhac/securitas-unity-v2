@@ -673,7 +673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 15d81c0713bf7f54684e64469a80f354, type: 2}
+  m_Material: {fileID: 2100000, guid: d7767b41b1f506d418abb95afd7becf4, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -1087,6 +1087,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c37d38df52d92140be3952d9728a40b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  titleText: {fileID: 3929099521094528628}
+  subtitleText: {fileID: 5984499225528925081}
   descriptionText: {fileID: 1063249867362107550}
   subdescriptionText: {fileID: 1294402585464027159}
   linesContainer: {fileID: 6170434721066024332}

@@ -16,8 +16,10 @@ MonoBehaviour:
     m_SceneAsset: {fileID: 102900000, guid: d780f00c8e8faac4f96471e282baa440, type: 3}
     m_IsDirty: 0
     m_ScenePath: Assets/Scenes/MainMenuScene.unity
-  title: Securitas
-  subtitle: Description.
+  title: Main menu
+  subtitle: Choose an area
+  descriptionText: Description
+  subdescriptionText: Subdescription
   videoBackground: {fileID: 0}
   sceneItems:
   - sceneReference:

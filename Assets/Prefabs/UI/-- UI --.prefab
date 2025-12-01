@@ -2680,7 +2680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 15d81c0713bf7f54684e64469a80f354, type: 2}
+  m_Material: {fileID: 2100000, guid: d7767b41b1f506d418abb95afd7becf4, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -6230,6 +6230,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8166535083575348355, guid: 88d2d581b8dfb9e43af5b57ae4a7aa77, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: d7767b41b1f506d418abb95afd7becf4, type: 2}
     - target: {fileID: 8251606682324751141, guid: 88d2d581b8dfb9e43af5b57ae4a7aa77, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using DevLocker.Utils;
+using NUnit.Framework;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,6 +13,8 @@ namespace Spop.AreaSystem.UI
     public class MainMenuPanel : MonoBehaviour
     {
         [Header("References")]
+        [SerializeField] private TextMeshProUGUI titleText;
+        [SerializeField] private TextMeshProUGUI subtitleText;
         [SerializeField] private TextMeshProUGUI descriptionText;
         [SerializeField] private TextMeshProUGUI subdescriptionText;
         [SerializeField] private Transform linesContainer;
@@ -27,6 +30,28 @@ namespace Spop.AreaSystem.UI
             DisableTemplateLines();
             ClearLines();
             SetupLines();
+            SetupTitles();
+        }
+
+        private void SetupTitles()
+        {
+            SetupText(MenuSettings.Instance.title, titleText);
+            SetupText(MenuSettings.Instance.subtitle, subtitleText);
+            SetupText(MenuSettings.Instance.descriptionText, descriptionText);
+            SetupText(MenuSettings.Instance.subdescriptionText, subdescriptionText);
+        }
+
+        private void SetupText(string text, TextMeshProUGUI textMeshProUGUI)
+        {
+            if (string.IsNullOrEmpty(text))
+            {
+                textMeshProUGUI.gameObject.SetActive(false);
+            }
+            else
+            {
+                textMeshProUGUI.gameObject.SetActive(true);
+                textMeshProUGUI.text = text;
+            }
         }
 
         private void SetupLines()

@@ -29,6 +29,8 @@ public class MenuSettings : ScriptableObject
     [Space]
     public string title;
     public string subtitle;
+    public string descriptionText;
+    public string subdescriptionText;
     public VideoClip videoBackground;
     public List<SceneItem> sceneItems;
 }

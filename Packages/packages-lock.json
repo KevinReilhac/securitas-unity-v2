@@ -9,6 +9,13 @@
       },
       "hash": "53e1baac3cde90c46934f82ee1d61802d2bd6651"
     },
+    "com.kebab.scene_flow": {
+      "version": "https://github.com/KevinReilhac/SceneFlow.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5a581ac361edd84dbf4c941a436bf285cff493ab"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
