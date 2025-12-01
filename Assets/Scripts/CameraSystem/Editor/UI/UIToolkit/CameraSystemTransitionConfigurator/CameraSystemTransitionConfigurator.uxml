@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Template name="TransitionItem" src="project://database/Assets/Code/Scripts/CameraSystem/Editor/UI/UIToolkit/CameraSystemTransitionConfigurator/TransitionItem.uxml?fileID=9197481963319205126&amp;guid=c787fa05398c4834dbc56854793534a8&amp;type=3#TransitionItem" />
+    <Style src="project://database/Assets/Code/Scripts/CameraSystem/Editor/UI/UIToolkit/CameraSystemTransitionConfigurator/CameraSystemTransitionConfigurator.uss?fileID=7433441132597879392&amp;guid=12e57113258e93a4fa1d0c47450e10f4&amp;type=3#CameraSystemTransitionConfigurator" />
+    <ui:VisualElement name="content" class="transition-window">
+        <ui:VisualElement name="transition-items-container">
+            <ui:Instance template="TransitionItem" name="TransitionItem" />
+        </ui:VisualElement>
+        <ui:Button text="+" name="add-button" class="add-button" />
+    </ui:VisualElement>
+</ui:UXML>

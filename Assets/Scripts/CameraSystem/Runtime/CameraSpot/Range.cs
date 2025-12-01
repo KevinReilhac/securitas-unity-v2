@@ -1,0 +1,27 @@
+using UnityEngine;
+
+namespace Spop.CameraSystem
+{
+    [System.Serializable]
+    public class Range
+    {
+        public float min;
+        public float max;
+
+        public Range(float min, float max)
+        {
+            this.min = min;
+            this.max = max;
+        }
+
+        public void Clamp(float value)
+        {
+            value = Mathf.Clamp(value, min, max);
+        }
+
+        public float Lerp(float value)
+        {
+            return Mathf.Lerp(min, max, value);
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "AreaSystem.Editor",
+    "rootNamespace": "Spop.AreaSystem.Editors",
+    "references": [
+        "GUID:2d12fad9cfd1e384881aa19b23f9bd4e",
+        "GUID:11127cbc457761446b8b999dcc7237af",
+        "GUID:89b7e9f0b583af04e9fad7075501bbb7",
+        "GUID:9137c76b4c5ea50469ca4e77942e11f7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

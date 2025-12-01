@@ -1,0 +1,89 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Code/Scripts/CameraSystem/Editor/UI/UIToolkit/CameraSystemConfiguratorWindow.uss?fileID=7433441132597879392&amp;guid=82fcff921f7385042b7f22ecaca48e2c&amp;type=3#CameraSystemConfiguratorWindow" />
+    <ui:VisualElement class="camera-system-configurator" style="flex-grow: 1;">
+        <ui:VisualElement name="camera-selection-panel" class="camera-system-panel camera-system-selection-panel">
+            <ui:Label text="Camera list" class="camera-system-selection-panel-title" />
+            <ui:ScrollView name="ScrollView" class="camera-selection-panel-scrollview">
+                <ui:VisualElement name="buttons-container">
+                    <ui:Button text="Button" />
+                    <ui:Button text="Button" />
+                    <ui:Button text="Very very long button name like very long loooooong" />
+                    <ui:Button text="Button" />
+                    <ui:Button text="Button" />
+                    <ui:Button text="Button" class="selected-camera-button" />
+                    <ui:Button text="Button" />
+                    <ui:Button text="Button" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+            <ui:Button text="Refresh" name="refresh-button" class="camera-selection-panel-refresh-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="configurator" class="camera-system-camera-configuration-panel">
+            <ui:VisualElement name="header" class="camera-system-header camera-system-panel" style="border-right-width: 0; border-left-width: 0;">
+                <ui:Label text="Camera name" name="selected-camera-spot-name" class="camera-system-header-title" />
+            </ui:VisualElement>
+            <ui:VisualElement name="content" class="camera-system-configurator-content">
+                <ui:VisualElement name="camera-display" class="camera-system-display-panel" />
+                <ui:VisualElement name="camera-config-fix" class="camera-system-config-panel camera-system-panel" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; display: none;">
+                    <ui:Label text="FIX CAMERA, NO CONFIGUATION" style="font-size: 15px; -unity-font-style: bold; -unity-text-align: upper-center;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="camera-config-orbital" class="camera-system-config-panel camera-system-panel camera-system-config-panel-orbital" style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+                    <ui:VisualElement name="start-fields" class="camera-config-fields-panel">
+                        <ui:Label text="START POSITION" name="Title" class="camera-config-fields-panel-title" />
+                        <ui:Slider label="X" value="0.5" high-value="1" name="start-x-position" />
+                        <ui:Slider label="Y" value="0.5" high-value="1" name="start-y-position" />
+                        <ui:Slider label="D" value="0.5" high-value="1" name="start-dist-position" />
+                        <ui:VisualElement name="buttons" class="camera-config-fields-panel-buttons">
+                            <ui:Button text="Set from here" name="set-startpos-button" />
+                            <ui:Button text="Snap from sliders" name="snap-startpos-button" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="distance-field" class="camera-config-fields-panel">
+                        <ui:Label text="Distance" name="Title" class="camera-config-fields-panel-title" />
+                        <ui:FloatField label="Min distance" value="42.2" name="distance-min" />
+                        <ui:FloatField label="Distance thickness" value="42.2" name="distance-thickness" />
+                        <ui:VisualElement name="buttons" class="camera-config-fields-panel-buttons">
+                            <ui:Button text="Set min dist" name="set-min-dist-button" />
+                            <ui:Button text="Set max dist" name="set-max-dist-button" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="horizontal-fields" class="camera-config-fields-panel">
+                        <ui:Label text="BOUNDS" name="Title" class="camera-config-fields-panel-title" />
+                        <ui:VisualElement class="toggleable-min-max-slider">
+                            <ui:MinMaxSlider label="Horizontal&#10;" value="-80,0" low-limit="-360" high-limit="360" name="horizontal-min-max" />
+                            <ui:Toggle name="horizontal-min-max-enabled" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="toggleable-min-max-slider">
+                            <ui:MinMaxSlider label="Vertical" value="-90,90" low-limit="-90" high-limit="90" name="vertical-min-max" />
+                            <ui:Toggle name="vertical-min-max-enabled" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="buttons" class="camera-config-fields-panel-buttons" style="flex-direction: column;">
+                            <ui:VisualElement>
+                                <ui:Button text="Set horizontal min" name="set-h-min-button" />
+                                <ui:Button text="Set horizontal max" name="set-h-max-button" />
+                            </ui:VisualElement>
+                            <ui:VisualElement>
+                                <ui:Button text="Set vertical min" name="set-v-min-button" />
+                                <ui:Button text="Set vertical max" name="set-v-max-button" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="footer" class="camera-system-configurator-footer camera-system-panel" style="height: 20px; border-left-width: 0; border-right-width: 0;">
+                <uie:ToolbarButton text="Camera settings" name="settings-button" class="footer-enabled-button" />
+            </ui:VisualElement>
+            <ui:VisualElement name="settings-window" class="camera-system-settings-panel" style="display: flex;">
+                <ui:VisualElement name="close-button" class="camera-system-settings-panel-close-button" />
+                <ui:Label text="Camera settings" name="title" class="camera-system-settings-panel-title" />
+                <ui:VisualElement name="settings-window-fields">
+                    <ui:VisualElement name="fov" style="flex-direction: row;">
+                        <ui:Slider label="FOV" value="42" high-value="100" name="fov-slider" style="flex-grow: 1;" />
+                        <ui:FloatField value="42.2" name="fov-field" />
+                    </ui:VisualElement>
+                    <ui:FloatField label="Near Clip" value="42.2" name="nearclip-field" />
+                    <ui:FloatField label="FarClip" value="42.2" name="farclip-field" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,18 @@
+{
+    "name": "AreaSystem.UI",
+    "rootNamespace": "Spop.AreaSystem.UI",
+    "references": [
+        "GUID:2d12fad9cfd1e384881aa19b23f9bd4e",
+        "GUID:9137c76b4c5ea50469ca4e77942e11f7",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

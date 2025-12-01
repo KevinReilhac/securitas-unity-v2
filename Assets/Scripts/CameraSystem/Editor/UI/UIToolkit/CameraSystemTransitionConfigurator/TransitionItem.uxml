@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="TransitionItem" class="transition-item">
+        <uie:ObjectField name="FromCameraField" />
+        <ui:Label text="-----&gt;" name="arrow-label" />
+        <uie:ObjectField name="ToCameraField" />
+        <ui:EnumField value="Center" type="Spop.CameraSystem.ETransitionTypes, CameraSystem" name="TransitionType" />
+        <ui:VisualElement name="controls-buttons-container" class="transition-item-control-buttons-container">
+            <ui:Button text="Button" class="transition-item-controll-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

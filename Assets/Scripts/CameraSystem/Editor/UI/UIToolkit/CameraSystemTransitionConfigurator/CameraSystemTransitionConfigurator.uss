@@ -1,0 +1,47 @@
+.transition-window {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.custom-label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(68, 138, 255);
+}
+
+.transition-item {
+    flex-direction: row;
+    -unity-text-align: upper-left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.transition-item ObjectField {
+    flex-direction: row;
+    width: 250px;
+}
+
+.transition-item #TransitionType {
+    flex-direction: row;
+    width: 150px;
+}
+
+.transition-item #arrow-label {
+    flex-direction: row;
+    width: 90px;
+    -unity-text-align: upper-center;
+}
+
+.add-button {
+    margin-top: 15px;
+}
+
+.transition-item-control-buttons-container {
+}
+
+.transition-item-control-buttons-container Button {
+    width: 50px;
+}

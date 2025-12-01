@@ -1,0 +1,174 @@
+.camera-system-header {
+    height: 50px;
+}
+
+.camera-system-header-title {
+    font-size: 30px;
+    -unity-text-align: middle-center;
+    flex-grow: 1;
+    -unity-font-style: bold;
+}
+
+.camera-system-configurator {
+    flex-direction: row;
+}
+
+.camera-system-panel {
+    border-top-color: var(--unity-colors-default-border);
+    border-right-color: var(--unity-colors-default-border);
+    border-bottom-color: var(--unity-colors-default-border);
+    border-left-color: var(--unity-colors-default-border);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.camera-system-camera-configuration-panel {
+    flex-grow: 1;
+}
+
+.camera-system-configurator-content {
+    flex-grow: 1;
+}
+
+.camera-system-settings-panel {
+    background-color: var(--unity-colors-default-background);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.camera-system-settings-panel-title {
+    -unity-text-align: middle-center;
+    margin-bottom: 10px;
+}
+
+.camera-system-display-panel {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/Code/Scripts/CameraSystem/Editor/UI/UIToolkit/CameraConfigurator-RenderTexture.renderTexture?fileID=8400000&guid=a26d413965999a546ab12b9c9575c7d8&type=2#CameraConfigurator-RenderTexture");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.camera-system-config-panel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.camera-system-config-panel-orbital {
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    flex-direction: row;
+}
+
+.camera-config-fields-panel {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-right-width: 1px;
+    border-right-color: var(--unity-colors-default-border);
+    flex-grow: 1;
+}
+
+.camera-config-fields-panel-title {
+    -unity-text-align: middle-center;
+    padding-bottom: 10px;
+    -unity-font-style: bold;
+}
+
+.camera-config-fields-panel .unity-base-field__label {
+    min-width: 0;
+    padding-right: 10px;
+}
+
+.toggleable-min-max-slider {
+    flex-direction: row;
+}
+
+.toggleable-min-max-slider > MinMaxSlider {
+    flex-grow: 1;
+}
+
+.toggleable-min-max-slider .unity-base-field__label {
+    flex-grow: 0;
+    min-width: 70px;
+}
+
+.camera-config-fields-panel-buttons {
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.camera-config-fields-panel-buttons * {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.camera-system-configurator-footer {
+    flex-direction: row-reverse;
+}
+
+.camera-system-selection-panel-title {
+    font-size: 15px;
+    margin-bottom: 15px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    margin-top: 15px;
+}
+
+.camera-system-selection-panel {
+    width: 200px;
+}
+
+.selected-camera-button {
+    background-color: var(--unity-colors-app_toolbar_button-border_accent);
+    border-left-color: rgb(64, 69, 171);
+    border-right-color: rgb(64, 69, 171);
+    border-top-color: rgb(64, 69, 171);
+    border-bottom-color: rgb(64, 69, 171);
+}
+
+.camera-selection-panel-scrollview {
+    flex-grow: 1;
+}
+
+.camera-selection-panel-refresh-button {
+    -unity-font-style: bold;
+    margin-top: 15px;
+}
+
+.camera-system-selection-panel Button {
+    flex-wrap: nowrap;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+}
+
+.footer-enabled-button {
+    background-color: var(--unity-colors-button-border-pressed);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(57, 74, 108);
+    border-right-color: rgb(57, 74, 108);
+    border-top-color: rgb(57, 74, 108);
+    border-bottom-color: rgb(57, 74, 108);
+}
+
+.camera-system-settings-panel-close-button {
+    position: absolute;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    top: 10px;
+    background-image: url("project://database/Packages/com.unity.collab-proxy/Editor/Assets/Images/d_iconclosebutton.png?fileID=2800000&guid=9cadde7a0d5f9024ab3f2cd5f6a740d6&type=3#d_iconclosebutton");
+}
