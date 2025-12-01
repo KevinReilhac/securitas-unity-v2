@@ -19,12 +19,14 @@ public class MenuSettings : ScriptableObject
         }
     }
 
+    [System.Serializable]
     public class SceneItem
     {
         public SceneReference sceneReference;
         public string title;
     }
-
+    public SceneReference mainMenuScene;
+    [Space]
     public string title;
     public string subtitle;
     public VideoClip videoBackground;

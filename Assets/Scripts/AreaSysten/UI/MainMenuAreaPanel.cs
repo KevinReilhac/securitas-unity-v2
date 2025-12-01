@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using DevLocker.Utils;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using static MenuSettings;
 
 namespace Spop.AreaSystem.UI
@@ -36,7 +37,7 @@ namespace Spop.AreaSystem.UI
                 AreaPanelLine lineInstance = Instantiate(areaPanelLinePrefab, linesContainer);
                 lineInstance.Setup(tmpSceneItem.title, () =>
                 {
-                    onLineClick?.Invoke(tmpSceneItem.sceneReference);
+                    SceneManager.LoadScene(tmpSceneItem.sceneReference.ScenePath);
                 });
                 lines.Add(lineInstance);
             }

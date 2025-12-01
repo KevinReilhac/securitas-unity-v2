@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Spop.AreaSystem.UI
@@ -36,7 +37,10 @@ namespace Spop.AreaSystem.UI
         private void OnPressedBackButton()
         {
             if (AreaManager.instance.CurrentArea.ParentArea == null)
+            {
+                SceneManager.LoadScene(MenuSettings.Instance.mainMenuScene.ScenePath);
                 return;
+            }
 
             AreaManager.instance.SetCurrentArea(AreaManager.instance.CurrentArea.ParentArea);
         }
@@ -45,7 +49,6 @@ namespace Spop.AreaSystem.UI
         {
             titleText.text = to.DisplayTitle;
             subtitleText.text = to.Subtitle;
-            backButton.gameObject.SetActive(to.ParentArea != null);
 
             if (to is InterestPoint interestPoint)
             {
