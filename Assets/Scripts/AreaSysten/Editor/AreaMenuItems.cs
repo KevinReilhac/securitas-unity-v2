@@ -40,6 +40,7 @@ namespace Spop.AreaSystem.Editors
             Undo.RegisterCreatedObjectUndo(areaObject, "Create " + areaObject.name);
 
             Selection.activeObject = areaObject;
+            areaObject.transform.localPosition = Vector3.zero;
 
             return areaObject;
         }

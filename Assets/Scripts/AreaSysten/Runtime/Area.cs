@@ -92,7 +92,15 @@ namespace Spop.AreaSystem
         [SerializeField] private string description = string.Empty;
         [SerializeField] private string subdescription = string.Empty;
 
-        public IReadOnlyList<baseArea> SubAreas => subAreas.AsReadOnly();
+        public IReadOnlyList<baseArea> SubAreas
+        {
+            get
+            {
+                if (subAreas == null)
+                    return new List<baseArea>().AsReadOnly();
+                return subAreas.AsReadOnly();
+            }
+        }
 
         public string Description => description;
         public string Subdescription => subdescription;
