@@ -94,11 +94,15 @@ namespace Spop.CameraSystem
         public override Quaternion GetRotation()
         {
             Vector3 direction = transform.position - GetPosition();
+            if (direction == Vector3.zero || !direction.IsValid())
+                return Quaternion.identity;
             return Quaternion.LookRotation(direction);
         }
 
         public override void Move(Vector2 moveDelta)
         {
+            if (!moveDelta.IsValid())
+                return;
             targetXPosition += moveDelta.x * moveSpeedMultiplier;
             targetYPosition -= moveDelta.y * moveSpeedMultiplier;
 

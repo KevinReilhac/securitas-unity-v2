@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
+using Spop.Common;
 using UnityEngine;
 
 namespace Spop.CameraSystem
@@ -67,8 +68,13 @@ namespace Spop.CameraSystem
         {
             if (lastTransition == null || !lastTransition.IsRunning)
             {
-                mainCamera.transform.position = _activeCameraSpot.GetPosition();
-                mainCamera.transform.rotation = _activeCameraSpot.GetRotation();
+                Vector3 position = _activeCameraSpot.GetPosition();
+                Quaternion rotation = _activeCameraSpot.GetRotation();
+
+                if (position.IsValid())
+                    mainCamera.transform.position = position;
+                if (rotation.IsValid())
+                    mainCamera.transform.rotation = rotation;
             }
         }
 
