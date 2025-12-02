@@ -6783,7 +6783,7 @@ MonoBehaviour:
   pressCount: 5
   objectToToggle: {fileID: 4798458306407229050}
   timeoutSeconds: 3
-  toggleOffByDefault: 0
+  toggleOffByDefault: 1
 --- !u!114 &2470411710570988727
 MonoBehaviour:
   m_ObjectHideFlags: 0
