@@ -28,7 +28,7 @@ MonoBehaviour:
       m_ScenePath: Assets/Scenes/Scene1.unity
     title: Test scene 1
   - sceneReference:
-      m_SceneAsset: {fileID: 102900000, guid: b35f985efb170374c949dbc39399ad54, type: 3}
+      m_SceneAsset: {fileID: 102900000, guid: e1162241ce07c084c82df624854108a5, type: 3}
       m_IsDirty: 0
-      m_ScenePath: Assets/Scenes/Scene2.unity
-    title: Test scene 2
+      m_ScenePath: Assets/Scenes/tertiare_magasinluxe.unity
+    title: Magasin de luxe
