@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using Spop.Common;
@@ -13,6 +14,7 @@ namespace Spop.CameraSystem
 
         private TransitionManager _transitionManager = new TransitionManager();
         private ITransition lastTransition;
+        public event Action<ACameraSpot> OnCameraSpotChanged;
 
         private ACameraSpot _activeCameraSpot;
         public ACameraSpot activeCameraSpot
@@ -43,6 +45,7 @@ namespace Spop.CameraSystem
         {
             if (newCameraSpot == _activeCameraSpot)
                 return;
+            OnCameraSpotChanged?.Invoke(newCameraSpot);
             ACameraSpot oldCameraSpot = _activeCameraSpot;
             _activeCameraSpot = newCameraSpot;
             _activeCameraSpot.OnSetActive();

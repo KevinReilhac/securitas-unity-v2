@@ -10,13 +10,15 @@ namespace Spop.CameraSystem.Editors
         [SerializeField] private int pressCount = 5;
         [SerializeField] private GameObject objectToToggle;
         [SerializeField] private float timeoutSeconds = 3.0f;
+        [SerializeField] private bool toggleOffByDefault = true;
 
         private int currentPressCount = 0;
         private float lastPressTime = 0f;
 
         void Awake()
         {
-            objectToToggle.SetActive(false);
+            if (toggleOffByDefault)
+                objectToToggle.SetActive(false);
         }
 
         private void OnEnable()

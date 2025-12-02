@@ -17,8 +17,8 @@ namespace Spop.CameraSystem
         [SerializeField] private float moveSpeedMultiplier = 1f;
         [SerializeField] private float zoomSpeedMultiplier = 1f;
 
-        private float targetXPosition;
-        private float targetYPosition;
+        public float targetXPosition {get; private set;}
+        public float targetYPosition {get; private set;}
         private Tween tween;
 
         public OrbitalCameraSpotData OrbitalData => orbitalData;

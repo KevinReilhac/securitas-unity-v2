@@ -22,6 +22,8 @@ namespace Spop.CameraSystem.Inputs
         [SerializeField] private Slider animationLeftRightDelaySlider;
         [SerializeField] private TextMeshProUGUI animationSpeedText;
         [SerializeField] private Slider animationSpeedSlider;
+        [SerializeField] private TextMeshProUGUI activeCamera;
+        [SerializeField] private TextMeshProUGUI targetCameraPosition;
 
         private StringBuilder debugTextBuilder = new StringBuilder();
         private float lastPinchValue;
@@ -50,6 +52,7 @@ namespace Spop.CameraSystem.Inputs
             animationDelaySlider.onValueChanged.AddListener(OnAnimationDelayChanged);
             animationLeftRightDelaySlider.onValueChanged.AddListener(OnAnimationLeftRightDelayChanged);
             animationSpeedSlider.onValueChanged.AddListener(OnAnimationSpeedChanged);
+            CameraManager.instance.OnCameraSpotChanged += OnCameraChanged;
 
             pinchSpeedSlider.value = CameraSystemSettings.Instance.PinchSpeedMultiplier;
             dragSpeedSlider.value = CameraSystemSettings.Instance.MoveSpeedMultiplier;
@@ -57,9 +60,31 @@ namespace Spop.CameraSystem.Inputs
             animationDelaySlider.value = CameraSystemSettings.Instance.AnimationDelayMultiplier;
             animationLeftRightDelaySlider.value = CameraSystemSettings.Instance.AnimationLeftRightDelayMultiplier;
             animationSpeedSlider.value = CameraSystemSettings.Instance.AnimationSpeedMultiplier;
-
+            OnCameraChanged(CameraManager.instance.activeCameraSpot);
         }
 
+        private void OnCameraChanged(ACameraSpot spot)
+        {
+            if (spot == null)
+                SetActiveCamera("NULL");
+            else
+                SetActiveCamera(spot.name);
+        }
+
+        private void SetActiveCamera(string cameraName)
+        {
+            activeCamera.text = string.Format("Active Camera: {0}", cameraName);
+        }
+
+        private void SetTargetCameraPosition(ACameraSpot cameraSpot)
+        {
+            if (cameraSpot == null)
+                targetCameraPosition.text = "Non orbital Camera";
+            else if (cameraSpot is OrbitalCameraSpot orbitalCameraSpot)
+                targetCameraPosition.text = string.Format("Target position: {0}", new Vector2(orbitalCameraSpot.targetXPosition, orbitalCameraSpot.targetYPosition));
+            else
+                targetCameraPosition.text = "Non orbital Camera";
+        }
 
         private void OnDisable()
         {
@@ -147,6 +172,7 @@ namespace Spop.CameraSystem.Inputs
             debugTextBuilder.AppendLine($"Valeur du drag: {lastDragValue}");
             debugTextBuilder.AppendLine($"Valeur du pinch: {lastPinchValue}");
             debugText.text = debugTextBuilder.ToString();
+            SetTargetCameraPosition(CameraManager.instance.activeCameraSpot);
         }
     }
 }
