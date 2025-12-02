@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using DevLocker.Utils;
+using Kebab.SceneFlow;
 using NUnit.Framework;
 using TMPro;
 using UnityEngine;
@@ -62,7 +63,7 @@ namespace Spop.AreaSystem.UI
                 AreaPanelLine lineInstance = Instantiate(areaPanelLinePrefab, linesContainer);
                 lineInstance.Setup(tmpSceneItem.title, () =>
                 {
-                    SceneManager.LoadScene(tmpSceneItem.sceneReference.ScenePath);
+                    SceneFlowManager.Load(tmpSceneItem.sceneReference.ScenePath);
                 });
                 lines.Add(lineInstance);
             }

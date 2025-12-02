@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Kebab.SceneFlow;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -38,7 +39,7 @@ namespace Spop.AreaSystem.UI
         {
             if (AreaManager.instance.CurrentArea.ParentArea == null)
             {
-                SceneManager.LoadScene(MenuSettings.Instance.mainMenuScene.ScenePath);
+                SceneFlowManager.Load(MenuSettings.Instance.mainMenuScene.ScenePath);
                 return;
             }
 
