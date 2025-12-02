@@ -15,8 +15,8 @@ MonoBehaviour:
   transitionDuration: 1
   transitionEase: 6
   defaultTransitionType: 0
-  dragSpeedValue: 0.75
-  pinchSpeedValue: 2
+  dragSpeedValue: 0.14025
+  pinchSpeedValue: 6
   animationDelayValue: 5
   animationSpeedValue: 2
   animationLeftRightDelayValue: 3
