@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: 9e9b67a843adc57428d0f5bb5186c2f4
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Big Generator
+    second: {fileID: 2100000, guid: 0410ac9f18eee174a90ad034cd51f809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cement
+    second: {fileID: 2100000, guid: 8ffb7b62ce6f25b4b890b74d59be6aa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Pipe2
+    second: {fileID: 2100000, guid: 8ed8acd0b533f0648b61dd04968ee48c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle
+    second: {fileID: 2100000, guid: d3ece742f6d0400489b51a800048d525, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Head
+    second: {fileID: 2100000, guid: 2ddaa0a6f726ae14a9824b5dda6bb345, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Misc_01
+    second: {fileID: 2100000, guid: c19c77cac9d10a74089d9fed5d8e9045, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Planks
+    second: {fileID: 2100000, guid: 2088b855853340b4e9e51d74a6181043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reel_Metal
+    second: {fileID: 2100000, guid: cf32198c76896d74ca00a79f258a6a0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reel_Screw_Base
+    second: {fileID: 2100000, guid: e678600463d314c4dbde506e648c5caa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reel_Screws
+    second: {fileID: 2100000, guid: f3f3f2c09ac269e4eac41e1b19653472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reel_Wood
+    second: {fileID: 2100000, guid: 070bbdd5f577e244cb14a7f768e72adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reel_Wood2
+    second: {fileID: 2100000, guid: 76a3fec1af0a9744f9a73814e230c35e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood1
+    second: {fileID: 2100000, guid: ad99564cabd88f24288ce357a0cffd5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood2
+    second: {fileID: 2100000, guid: e41eb22f73eb4d04b88b9e645ac419a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipe1
+    second: {fileID: 2100000, guid: 1448c8a3a0574c640a95f874d5bd877c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipe2
+    second: {fileID: 2100000, guid: 8f2c62ea5442c1e4ea05b30ac6e6d520, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pipe3
+    second: {fileID: 2100000, guid: e1d334d319d27d64da342cb48db73947, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plank1
+    second: {fileID: 2100000, guid: 87540fb36b6aa0b4ea81865f80c63466, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plank2
+    second: {fileID: 2100000, guid: 4374358b4c7c5044aa7dc5559998efc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plank3
+    second: {fileID: 2100000, guid: f1c2e370b06b4f748a3b0fcaf35d2427, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plank4
+    second: {fileID: 2100000, guid: c0e7ea1f2fa18a1459f7aebe12c391b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plank5
+    second: {fileID: 2100000, guid: 387a6e2c980949b49bbad8957815f178, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plank6
+    second: {fileID: 2100000, guid: db262fac7e9525e45b82399e6c307986, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cement_baseColor
+    second: {fileID: 2800000, guid: 4130196e100d31d4881f0bdf81cf4c2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cement_normal
+    second: {fileID: 2800000, guid: daf8dcde2c68549418d4772c45cdbda6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Pipe2_baseColor
+    second: {fileID: 2800000, guid: 9731c541dfcdcdb488052d6ce79cf14d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Pipe2_normal
+    second: {fileID: 2800000, guid: 60f15304f9e76924c9e383dc94bc85ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Generator_Big_Generator_AlbedoTransparency
+    second: {fileID: 2800000, guid: 5d2f27a9803112045a36872b4919b590, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Handle_baseColor
+    second: {fileID: 2800000, guid: 4c63bf40766ac0c4c99fca67bc6df7a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Handle_normal
+    second: {fileID: 2800000, guid: 97bb70b259e6d464ca32a5e4cb45e0ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Head_baseColor
+    second: {fileID: 2800000, guid: 05ce0b18503dd7848a049400217c2a16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Head_normal
+    second: {fileID: 2800000, guid: 760260c9c7736ae47953eb451a9b428a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Misc_01_Misc_01_AlbedoTransparency
+    second: {fileID: 2800000, guid: e3ac11e16179b364387a08ec90f30a5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Planks_baseColor
+    second: {fileID: 2800000, guid: 2ed03eb5599c41e46927dbced92d402e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Planks_normal
+    second: {fileID: 2800000, guid: 92aefbce9e3a567499cbd247b02bfa8a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Reel_Metal_baseColor
+    second: {fileID: 2800000, guid: 0fbae80e6a7924c4b8895ff8f154aa6f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Reel_Metal_normal
+    second: {fileID: 2800000, guid: 1c62a839c6317d844bf03f5fec38f0ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Reel_Screw_Base_baseColor
+    second: {fileID: 2800000, guid: 6f4e2665abf96cd4f9152296268a024a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Reel_Screw_Base_normal
+    second: {fileID: 2800000, guid: 7c715f23682357143bb82373cadefb57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Reel_Screws_normal
+    second: {fileID: 2800000, guid: ce3f4f3fbb2a2f343a61a947bab09573, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Reel_Wood2_baseColor
+    second: {fileID: 2800000, guid: 4714ea1f342ac8f45a693f4a67c81bfe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Reel_Wood2_normal
+    second: {fileID: 2800000, guid: 03080b25cd7e8fc44a6fcebd71c56f84, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Reel_Wood_normal
+    second: {fileID: 2800000, guid: ee5be88357ea3194c9293b7cb6abc353, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood1_baseColor
+    second: {fileID: 2800000, guid: 4242ef12a646bf34c8f36487a724da0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood1_normal
+    second: {fileID: 2800000, guid: 24b0bf38e76915b40957111e34a2e661, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood2_baseColor
+    second: {fileID: 2800000, guid: 0c49b06203faaa745b43d1b335f035d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood2_normal
+    second: {fileID: 2800000, guid: ab015bd9802cfca438690e76c76ab843, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pipe1_baseColor
+    second: {fileID: 2800000, guid: 0febd9a6067707c4c93e088095dfeb7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pipe1_normal
+    second: {fileID: 2800000, guid: b6969de71f5e3ac4693156c693d19eb2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pipe2_baseColor
+    second: {fileID: 2800000, guid: 9bf3d807f7150b849a6d180f22124ca5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pipe2_normal
+    second: {fileID: 2800000, guid: 008b8473f4f2c9a47964171f49818b69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pipe3_baseColor
+    second: {fileID: 2800000, guid: 518de72dada497746984f80c402f07cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pipe3_normal
+    second: {fileID: 2800000, guid: d713e69d816551043aac54b174d45cae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plank1_baseColor
+    second: {fileID: 2800000, guid: 2e3c564e83b82fc4d99083658a9931c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plank1_normal
+    second: {fileID: 2800000, guid: 1dc63421e6e61d4418875f6a152d7315, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plank2_baseColor
+    second: {fileID: 2800000, guid: 067c0d9cfabc7384d90347cd120dfd8b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plank2_normal
+    second: {fileID: 2800000, guid: 794d64baae5b004409988341d2b17faa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plank3_baseColor
+    second: {fileID: 2800000, guid: e90b3b32d1a64ee409d9105319986fc6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plank3_normal
+    second: {fileID: 2800000, guid: bf685021eeadd8d44ad0f92797da0f4a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plank4_baseColor
+    second: {fileID: 2800000, guid: 3cb1ec4a878c41a4c85b4b44a5125263, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plank4_normal
+    second: {fileID: 2800000, guid: aa5f528b3bebdc84ab3a989d47be49b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plank5_baseColor
+    second: {fileID: 2800000, guid: 2493bb13b715db84588f82baaeca1f67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plank5_normal
+    second: {fileID: 2800000, guid: 43108fe9fab2c884096a816e8fa2110a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plank6_baseColor
+    second: {fileID: 2800000, guid: 2c7f8a3ff1774354e87db0bf6ac614a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plank6_normal
+    second: {fileID: 2800000, guid: 956a6b6ef5dd6db4fae541cb5632b010, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 1
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

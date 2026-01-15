@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: 12dd6ab97e2bc0a41b200b7f64107ef7
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bauwatch_chrom.001
+    second: {fileID: 2100000, guid: b505357100d8d0f4a822fd7589030b33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bauwatch_glas_camera_1.001
+    second: {fileID: 2100000, guid: 8e910cbfca5ac0e48a4a18c38834b91f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bauwatch_glas_green.001
+    second: {fileID: 2100000, guid: 638c56efb052e7e4a9f4e697908d7893, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bauwatch_metal_black.001
+    second: {fileID: 2100000, guid: 07bf41ad36328c24cb84aba8ef7e878e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bauwatch_metal_geruest.001
+    second: {fileID: 2100000, guid: 4ac3cb690db6b8b49aaa95209db9fec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bauwatch_metal_weiss.001
+    second: {fileID: 2100000, guid: 73e6d2dbb4eea614c8ed64782c2a2c5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bauwatch_plastic_black.001
+    second: {fileID: 2100000, guid: 75892d4a545f2ad4dab9ee286a3dd659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bauwatch_plastic_black_kette.001
+    second: {fileID: 2100000, guid: 5a2c169dc306f614789a7f63fee2788f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bauwatch_schloss.001
+    second: {fileID: 2100000, guid: 66f91430a692cbd438b12c83e31d5f76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bauwatch_schrift_und_logos.001
+    second: {fileID: 2100000, guid: 6208944cb98e5d6468a5a43477b8e6e2, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chrom_Base_color
+    second: {fileID: 2800000, guid: 7617c2ee460b8ae49a91acd880714dd7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chrom_Normal_DirectX
+    second: {fileID: 2800000, guid: 6b90e123697d7da42a7458c575e969c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: glas_camera_1_Base_color
+    second: {fileID: 2800000, guid: efb0f236c08e1774299e90522fe66968, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: glas_camera_1_Normal_DirectX
+    second: {fileID: 2800000, guid: de816b86c880e844d85b7f06c3995b0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: glas_green_Base_color
+    second: {fileID: 2800000, guid: 3b04b3f07c4c5904399e530411e6b643, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: glas_green_Normal_DirectX
+    second: {fileID: 2800000, guid: 89a1dd716c3726a45a3a8e6ac03a79d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: metal_black_Base_color
+    second: {fileID: 2800000, guid: 09b461ec9645b8f45bba28e22cf7d77d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: metal_black_Normal_DirectX
+    second: {fileID: 2800000, guid: 56a5064a81286bf488e69dda519bc302, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: metal_geruest_Base_color
+    second: {fileID: 2800000, guid: cf056e071b102b8448b66405659da68e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: metal_geruest_Normal_DirectX
+    second: {fileID: 2800000, guid: 59ea23e85d3e88c4ab183039f39ea604, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: metal_weiss_Base_color
+    second: {fileID: 2800000, guid: ae6e4b17173b8e347a4331a57d194830, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: metal_weiss_Normal_DirectX
+    second: {fileID: 2800000, guid: f88047f36c78d5d4e97c3f486079bcbe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plastic_black_Base_color
+    second: {fileID: 2800000, guid: d3a13c7dfd31cf241a9f0ddae3b761d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plastic_black_Normal_DirectX
+    second: {fileID: 2800000, guid: 33f829b3c2da82e428858eeaf1c16b33, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plastic_black_kette_Base_color
+    second: {fileID: 2800000, guid: cd423a82dff20bf46a1f5d9751c68645, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plastic_black_kette_Normal_DirectX
+    second: {fileID: 2800000, guid: 330b92fe2a616ef4f9e334934bfba178, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: schloss_Base_color
+    second: {fileID: 2800000, guid: e9950dec265bfa64eaa3933a8a7d46a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: schloss_Normal_DirectX
+    second: {fileID: 2800000, guid: 349a538af3a5d454e91c62422cc42c3a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: schrift_und_logos_Normal_DirectX
+    second: {fileID: 2800000, guid: 8a0c6eeab1675a14c8f52b2104fcd447, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: securitas_tourdegarde
+    second: {fileID: 2800000, guid: fb93e663bc1fdc940bc1e3d37aeefe57, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 1
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
