@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8880349007327467917
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.866
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18.62
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0018418462
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0018418462
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071044
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071044
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8134810584632920713, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -7581526476575337177, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -3773865189704045859, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -1002104808728407669, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_Name
+      value: securitas car
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079770980958542247, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093975801628626141, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203138754979805339, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7159240535332781609, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7403493993994643948, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282989314969834276, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fd150a68eb59da48b977d2c771661f7, type: 3}
