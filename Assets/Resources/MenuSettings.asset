@@ -32,3 +32,8 @@ MonoBehaviour:
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/tertiare_magasinluxe.unity
     title: Magasin de luxe
+  - sceneReference:
+      m_SceneAsset: {fileID: 102900000, guid: 1b3db94f3faa52044b9cf92d5f719e86, type: 3}
+      m_IsDirty: 0
+      m_ScenePath: Assets/Scenes/Chantier.unity
+    title: Chantier
