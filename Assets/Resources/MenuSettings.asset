@@ -23,11 +23,6 @@ MonoBehaviour:
   videoBackground: {fileID: 0}
   sceneItems:
   - sceneReference:
-      m_SceneAsset: {fileID: 102900000, guid: 7fbc4ced3f20b2746a5fe505ee19504b, type: 3}
-      m_IsDirty: 0
-      m_ScenePath: Assets/Scenes/Scene1.unity
-    title: Test scene 1
-  - sceneReference:
       m_SceneAsset: {fileID: 102900000, guid: e1162241ce07c084c82df624854108a5, type: 3}
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/tertiare_magasinluxe.unity
