@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chantier.unity
     guid: 1b3db94f3faa52044b9cf92d5f719e86
+  - enabled: 1
+    path: "Assets/Scenes/D\xE9fence.unity"
+    guid: d9dea718c5dd8ee4c80f9f944c4fb355
   m_configObjects:
     com.unity.adaptivePerformance.basic.provider_settings: {fileID: 11400000, guid: 3cde3563290b32647abc8d2adb253f5c, type: 2}
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 9c04bcf977a80ef47a085ee648eb6380, type: 2}

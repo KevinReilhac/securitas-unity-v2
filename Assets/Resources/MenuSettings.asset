@@ -32,3 +32,8 @@ MonoBehaviour:
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/Chantier.unity
     title: Chantier
+  - sceneReference:
+      m_SceneAsset: {fileID: 102900000, guid: d9dea718c5dd8ee4c80f9f944c4fb355, type: 3}
+      m_IsDirty: 0
+      m_ScenePath: "Assets/Scenes/D\xE9fence.unity"
+    title: "D\xE9fence"
