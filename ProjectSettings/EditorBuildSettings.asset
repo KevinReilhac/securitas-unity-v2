@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene2.unity
     guid: b35f985efb170374c949dbc39399ad54
   - enabled: 1
-    path: Assets/Scenes/tertiare_magasinluxe.unity
+    path: Assets/Scenes/Retail.unity
     guid: e1162241ce07c084c82df624854108a5
   - enabled: 1
     path: Assets/Scenes/Chantier.unity
