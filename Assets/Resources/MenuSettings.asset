@@ -40,7 +40,7 @@ MonoBehaviour:
   - sceneReference:
       m_SceneAsset: {fileID: 102900000, guid: a6cfe5a4fe238f5498984287507cb704, type: 3}
       m_IsDirty: 0
-      m_ScenePath: Assets/Scenes/Transport et Logistique.unity
+      m_ScenePath: Assets/Scenes/Transport et logistique.unity
     title: Transport et logistique
   - sceneReference:
       m_SceneAsset: {fileID: 102900000, guid: 68880a55b9e89cb448a10a9bbf100a50, type: 3}

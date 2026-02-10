@@ -3,7 +3,32 @@ guid: 16da39a0e3252ea4a83ecbf0252aaa18
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ch18_Body
+    second: {fileID: 2100000, guid: f8fd15d945b37144bae21bcf179f9c8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Humano_Rig_056-2572_01_T-LOD0_8K
+    second: {fileID: 2100000, guid: 686b8e9bfe60d0646953cb24513f4fcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #804
+    second: {fileID: 2100000, guid: dc7240c0ff6fb844eac69da34e8da96a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jumbo-car
+    second: {fileID: 2100000, guid: 83b912c7537256041ba17ad2e51c9cf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 3638eb4c03229f24e98f8a8e90b8cc36, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
