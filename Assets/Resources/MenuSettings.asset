@@ -25,8 +25,8 @@ MonoBehaviour:
   - sceneReference:
       m_SceneAsset: {fileID: 102900000, guid: e1162241ce07c084c82df624854108a5, type: 3}
       m_IsDirty: 0
-      m_ScenePath: Assets/Scenes/tertiare_magasinluxe.unity
-    title: Magasin de luxe
+      m_ScenePath: Assets/Scenes/Retail.unity
+    title: Retail
   - sceneReference:
       m_SceneAsset: {fileID: 102900000, guid: 1b3db94f3faa52044b9cf92d5f719e86, type: 3}
       m_IsDirty: 0
@@ -35,10 +35,20 @@ MonoBehaviour:
   - sceneReference:
       m_SceneAsset: {fileID: 102900000, guid: d9dea718c5dd8ee4c80f9f944c4fb355, type: 3}
       m_IsDirty: 0
-      m_ScenePath: "Assets/Scenes/D\xE9fence.unity"
-    title: "D\xE9fence"
+      m_ScenePath: "Assets/Scenes/D\xE9fense.unity"
+    title: "D\xE9fense"
   - sceneReference:
       m_SceneAsset: {fileID: 102900000, guid: a6cfe5a4fe238f5498984287507cb704, type: 3}
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/Transport et Logistique.unity
-    title: Transport et Logistique
+    title: Transport et logistique
+  - sceneReference:
+      m_SceneAsset: {fileID: 102900000, guid: 68880a55b9e89cb448a10a9bbf100a50, type: 3}
+      m_IsDirty: 0
+      m_ScenePath: "Assets/Scenes/Traitement des d\xE9chets.unity"
+    title: "Traitement des d\xE9chets"
+  - sceneReference:
+      m_SceneAsset: {fileID: 102900000, guid: 8e0b80ce9864fc5488c076328b483483, type: 3}
+      m_IsDirty: 0
+      m_ScenePath: Assets/Scenes/Tertiaire.unity
+    title: Tertiaire
