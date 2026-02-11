@@ -13641,19 +13641,19 @@ MonoBehaviour:
   orbitalData:
     useVerticalAngle: 1
     verticalAngle:
-      min: 3.0824356
-      max: 26.07433
+      min: -89.9
+      max: 89.9
     useHorizontalAngle: 1
     horizontalAngle:
       min: -204.1379
       max: -34.206886
-    minDistance: 2.57
+    minDistance: 5.07
     distanceThikness: 2.2
     startPosXNormalized: 0.107937984
     startPosYNormalized: 0.09909144
     startPosDistNormalized: 0
-  xPosition: -185.79588
-  yPosition: 5.3607354
+  xPosition: -190.28215
+  yPosition: 4.654751
   normalizedDistance: 0
   moveSpeedMultiplier: 1
   zoomSpeedMultiplier: 1
