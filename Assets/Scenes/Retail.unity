@@ -22121,6 +22121,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2060888089}
     m_Modifications:
+    - target: {fileID: 6208435750837766963, guid: 3b4d38077d54c0645afc10e92fb4f4af, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 85a4f8554f8b80842a5367a0c847a4de, type: 2}
     - target: {fileID: 8328928369003298720, guid: 3b4d38077d54c0645afc10e92fb4f4af, type: 3}
       propertyPath: m_Name
       value: Monitor
