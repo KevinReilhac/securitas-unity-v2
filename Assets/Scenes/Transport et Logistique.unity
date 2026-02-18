@@ -11318,7 +11318,7 @@ PrefabInstance:
     - target: {fileID: -2811789529192633683, guid: 061e955f0e5ebe64fa0ea48c43e77fb7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: c1aa15cc9db9e3b4584d30b49e1a900f, type: 2}
+      objectReference: {fileID: 2100000, guid: 717f5d8e033bacf44bc0a8e62db9e0b5, type: 2}
     - target: {fileID: -2331986720359856962, guid: 061e955f0e5ebe64fa0ea48c43e77fb7, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -12474,6 +12474,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e1ac6fa0a2d1b1c40804cf6b221c2479, type: 3}
       propertyPath: m_Name
       value: Neutral Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e1ac6fa0a2d1b1c40804cf6b221c2479, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1084884740351611579, guid: e1ac6fa0a2d1b1c40804cf6b221c2479, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16391,8 +16395,8 @@ Transform:
   m_GameObject: {fileID: 836200748}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.99999833, z: -0, w: 0.001844704}
-  m_LocalPosition: {x: -19.75971, y: 1.1360002, z: 1.1370001}
-  m_LocalScale: {x: 1.1631653, y: 0.5998593, z: 1.1631653}
+  m_LocalPosition: {x: -17.79, y: 1.149, z: 1.1370001}
+  m_LocalScale: {x: 0.90614074, y: 0.4673084, z: 0.90614074}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 436735872}
@@ -17018,7 +17022,7 @@ GameObject:
   - component: {fileID: 868718330}
   - component: {fileID: 868718331}
   m_Layer: 0
-  m_Name: "Vid\xE9osurveillance & Lev\xE9e de doute InterestPoint"
+  m_Name: "Vid\xE9osurveillance & lev\xE9e de doute InterestPoint"
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -17052,8 +17056,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 800481980626b0149b97ac4f62ccd4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: AreaSystem::Spop.AreaSystem.InterestPoint
-  areaName: "Vid\xE9osurveillance & Lev\xE9e de doute"
-  displayTitle: "Vid\xE9osurveillance & Lev\xE9e de doute"
+  areaName: "Vid\xE9osurveillance & lev\xE9e de doute"
+  displayTitle: "Vid\xE9osurveillance & lev\xE9e de doute"
   subtitle: 
   cameraSpot: {fileID: 1746540909}
   customDotPosition: {fileID: 0}
@@ -24188,7 +24192,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1218409831
 Transform:
   m_ObjectHideFlags: 0
@@ -26757,7 +26761,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1424868028
 Transform:
   m_ObjectHideFlags: 0
@@ -32672,7 +32676,7 @@ GameObject:
   - component: {fileID: 1746540908}
   - component: {fileID: 1746540909}
   m_Layer: 0
-  m_Name: "Vid\xE9osurveillance & Lev\xE9e de doute Camera Spot"
+  m_Name: "Vid\xE9osurveillance & lev\xE9e de doute Camera Spot"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35454,7 +35458,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fda2d8d8b59f49f4fa57c02707f69028, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1092408308860062549, guid: fda2d8d8b59f49f4fa57c02707f69028, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -38863,7 +38867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8986914511848111718, guid: 7a83b2e5f1bbf6348a5d2f415e8a22b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.358
+      value: 13.867322
       objectReference: {fileID: 0}
     - target: {fileID: 8986914511848111718, guid: 7a83b2e5f1bbf6348a5d2f415e8a22b9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -38871,23 +38875,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8986914511848111718, guid: 7a83b2e5f1bbf6348a5d2f415e8a22b9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.114
+      value: -13.190087
       objectReference: {fileID: 0}
     - target: {fileID: 8986914511848111718, guid: 7a83b2e5f1bbf6348a5d2f415e8a22b9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.022234136
+      value: -0.70710635
       objectReference: {fileID: 0}
     - target: {fileID: 8986914511848111718, guid: 7a83b2e5f1bbf6348a5d2f415e8a22b9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.022234103
+      value: 0.70710635
       objectReference: {fileID: 0}
     - target: {fileID: 8986914511848111718, guid: 7a83b2e5f1bbf6348a5d2f415e8a22b9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7067572
+      value: 0.0007934398
       objectReference: {fileID: 0}
     - target: {fileID: 8986914511848111718, guid: 7a83b2e5f1bbf6348a5d2f415e8a22b9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7067571
+      value: 0.00079340255
       objectReference: {fileID: 0}
     - target: {fileID: 8986914511848111718, guid: 7a83b2e5f1bbf6348a5d2f415e8a22b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -38899,7 +38903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8986914511848111718, guid: 7a83b2e5f1bbf6348a5d2f415e8a22b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 176.396
+      value: 359.871
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39245,7 +39249,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1031632035632905139
 Transform:
   m_ObjectHideFlags: 0

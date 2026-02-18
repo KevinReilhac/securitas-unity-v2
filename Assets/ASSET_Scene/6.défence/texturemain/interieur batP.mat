@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8605759403893314924
+--- !u!114 &-2788523126328836000
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -50,11 +50,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 9fe8a1f8f70b7874c8c56709194289a4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4899a05ae75011e47b5c0a161b9975de, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 26875ac847468554c915b5a823874e1d, type: 3}
+        m_Texture: {fileID: 2800000, guid: ca724d552fc60f045a5f6029a77f517c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -74,7 +74,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: f14742969824bbd44afb7a120a93efe6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 082d733d76ab0e8489a86c7e84503a5c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _METALNESS_MAP:
@@ -82,11 +82,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9fe8a1f8f70b7874c8c56709194289a4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4899a05ae75011e47b5c0a161b9975de, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 8dc972234d23be74a939b6159a44231a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1a662afe370bf9a44bf3fffe675aceb7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -179,7 +179,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EMISSION_COLOR: {r: 0, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 256, g: 256, b: 256, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _REFLECTIONS_COLOR: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
