@@ -52,3 +52,8 @@ MonoBehaviour:
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/Chantier.unity
     title: Chantier
+  - sceneReference:
+      m_SceneAsset: {fileID: 102900000, guid: 7fbc4ced3f20b2746a5fe505ee19504b, type: 3}
+      m_IsDirty: 0
+      m_ScenePath: Assets/Scenes/PMI.unity
+    title: P.M.I
