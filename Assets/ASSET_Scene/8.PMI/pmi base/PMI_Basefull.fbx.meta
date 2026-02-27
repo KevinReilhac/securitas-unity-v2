@@ -42,6 +42,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: "mur 2 int\xE9 usine"
+    second: {fileID: 2100000, guid: 5cc4d6f0e99602f4e9e0413fea99d2c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: porte de secour
+    second: {fileID: 2100000, guid: 85142286cd7552e418be1b4d74d8d2f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: routetrotoir
     second: {fileID: 2100000, guid: 50f4fe733ce7d2a419887e8716d6f91a, type: 2}
   - first:
@@ -49,6 +59,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: smallbayimenty
     second: {fileID: 2100000, guid: f3fcedb7b284cb24788209ae4753b3a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tuyau etc
+    second: {fileID: 2100000, guid: ea778c87b27b7724094d4dd588691c3f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
