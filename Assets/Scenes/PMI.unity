@@ -4807,7 +4807,27 @@ MonoBehaviour:
   ParentArea: {fileID: 0}
   interestPointInfos:
     image: {fileID: 21300000, guid: 8efd6ecd4e76aa8448cd1107cff0d881, type: 3}
-    infos: []
+    infos:
+    - type: 1
+      text: "Ouvrir et/ou fermer votre site \r\n"
+    - type: 1
+      text: "Effectuer la mise On / mise Hors service de votre syst\xE8me d\u2019alarme
+        \r\n"
+    - type: 1
+      text: "S\xE9curiser les acc\xE8s de votre site et de vos b\xE2timents  \r\n"
+    - type: 1
+      text: "Pr\xE9venir d\u2019\xE9ventuels intrusions et sinistres \r\n"
+    - type: 1
+      text: "Observer toutes situations anormales \r\n"
+    - type: 2
+      text: "Vos avantages  \r\n"
+    - type: 1
+      text: "Pr\xE9vention des risques intrusion, vol, d\xE9gradation, incendie \r\n"
+    - type: 1
+      text: "Mise en s\xE9curit\xE9 de votre site \r\n"
+    - type: 1
+      text: "Protection de vos moyens d\u2019acc\xE8s (cl\xE9s, cartes, codes d\u2019alarme)
+        \r\n"
   spacingOffset: 0
 --- !u!1 &443794125
 GameObject:
@@ -13316,7 +13336,32 @@ MonoBehaviour:
   ParentArea: {fileID: 0}
   interestPointInfos:
     image: {fileID: 21300000, guid: 7d3afa4ce6764e04bbfc8bb711e94657, type: 3}
-    infos: []
+    infos:
+    - type: 1
+      text: "Contr\xF4ler mensuellement des installations et dispositifs techniques
+        de s\xE9curit\xE9 obligatoires  \r\n"
+    - type: 1
+      text: "Les affichages (r\xE8glement int\xE9rieur, consignes de s\xE9curit\xE9,
+        etc.) "
+    - type: 1
+      text: "Les \xE9clairages de s\xE9curit\xE9 \r\n"
+    - type: 1
+      text: "Les exutoires de fum\xE9es \r\n"
+    - type: 1
+      text: "Les \xE9quipements de s\xE9curit\xE9 incendie \r\n"
+    - type: 1
+      text: "Les portes coupe-feu, les issues de secours \r\n"
+    - type: 2
+      text: "Vos avantages  \r\n"
+    - type: 1
+      text: "D\xE9tection rapide des installations d\xE9fectueuses pouvant nuire
+        \xE0 la sant\xE9 et la s\xE9curit\xE9 de vos salari\xE9s \r\n"
+    - type: 1
+      text: "Optimisation du temps au personnel de l\u2019entreprise  \r\n"
+    - type: 1
+      text: "Respect de la l\xE9gislation (article R. 4224-17 du Code du travail)\r\n"
+    - type: 1
+      text: "Flexibilit\xE9 des horaires de v\xE9rification\r\n"
   spacingOffset: 0
 --- !u!1 &920939030
 GameObject:
@@ -15649,7 +15694,32 @@ MonoBehaviour:
   ParentArea: {fileID: 0}
   interestPointInfos:
     image: {fileID: 21300000, guid: afedca31e8df841439e1f660baf4fd4f, type: 3}
-    infos: []
+    infos:
+    - type: 1
+      text: "V\xE9rifier la conformit\xE9 de l\u2019\xE9tat de vos locaux \r\n"
+    - type: 1
+      text: "Inspecter rigoureusement tous les points de contr\xF4le d\xE9finis pr\xE9alablement
+        \r\n"
+    - type: 1
+      text: "V\xE9rifier le respect des r\xE8gles de s\xE9curit\xE9 \r\n"
+    - type: 1
+      text: "Contr\xF4ler les personnes pr\xE9sentes sur le site \r\n"
+    - type: 1
+      text: 'Observer toutes situations anormales '
+    - type: 1
+      text: "Mettre en place les mesures conservatoires n\xE9cessaires en cas d\u2019incident
+        \r\n"
+    - type: 2
+      text: "Vos avantages\u202F:  \r\n"
+    - type: 1
+      text: "Pr\xE9sence dissuasive et action pr\xE9ventive \r\n"
+    - type: 1
+      text: "Identification imm\xE9diate des personnes non autoris\xE9s sur site
+        \r\n\r\n"
+    - type: 1
+      text: "D\xE9tection rapide des probl\xE8mes ou anomalies \r\n"
+    - type: 1
+      text: "Protection accrue des zones sensibles ou strat\xE9giques\r\n"
   spacingOffset: 0
 --- !u!1 &1124629891
 GameObject:
@@ -15988,7 +16058,41 @@ MonoBehaviour:
   ParentArea: {fileID: 0}
   interestPointInfos:
     image: {fileID: 21300000, guid: 6651956ed5e461844bfc858dadeb0cc2, type: 3}
-    infos: []
+    infos:
+    - type: 1
+      text: "Vid\xE9osurveiller le site  \r\n"
+    - type: 1
+      text: "Traiter les alertes par nos op\xE9rateurs de t\xE9l\xE9surveillance 
+        \r\n"
+    - type: 1
+      text: "Enregistrer les mises en et hors service du syst\xE8me d\u2019alarme"
+    - type: 1
+      text: "Effectuer des rondes vid\xE9o durant les horaires de fermeture \r\n"
+    - type: 1
+      text: "D\xE9tecter les \xE9v\xE8nements inhabituels et incidents \r\n"
+    - type: 1
+      text: "Effectuer une lev\xE9e de doute vid\xE9o \xE0 distance \r\n"
+    - type: 1
+      text: "Appeler les forces de l\u2019ordre si lev\xE9e de doute vid\xE9o positive  "
+    - type: 2
+      text: "Vos avantages \r\n"
+    - type: 1
+      text: "Pr\xE9sence s\xE9curitaire proactive et dissuasive avec les cam\xE9ras
+        int\xE9rieures et ext\xE9rieures \r\n"
+    - type: 1
+      text: "Centres de t\xE9l\xE9surveillance certifi\xE9s APSAD P3 disponibles
+        24h/24 et 7j/7 \r\n"
+    - type: 1
+      text: "Op\xE9rateurs de t\xE9l\xE9surveillance exp\xE9riment\xE9s et certifi\xE9s
+        \r\n"
+    - type: 1
+      text: "R\xE9ponse rapide en cas d\u2019urgence \r\n"
+    - type: 1
+      text: "Renforcement de votre s\xE9curit\xE9 notamment pendant les p\xE9riodes
+        de fermeture de votre site \r\n"
+    - type: 1
+      text: "Acc\xE8s privil\xE9gi\xE9 pour contacter les forces de l\u2019ordre
+        \r\n"
   spacingOffset: 0
 --- !u!1 &1149839898
 GameObject:
@@ -19709,7 +19813,36 @@ MonoBehaviour:
   ParentArea: {fileID: 0}
   interestPointInfos:
     image: {fileID: 21300000, guid: 03a1ee48a72fe1b47963341ce4ac9a25, type: 3}
-    infos: []
+    infos:
+    - type: 1
+      text: "Inspecter l\u2019environnement et l\u2019ext\xE9rieur des b\xE2timents
+        \r\n"
+    - type: 1
+      text: "V\xE9rifier les points sensibles et d\xE9tecter les incidents apparents  
+        \r\n"
+    - type: 1
+      text: "Contr\xF4ler l\u2019\xE9tat des issues ext\xE9rieures \r\n"
+    - type: 1
+      text: "Constater la pr\xE9sence \xE9ventuelle de personnes non autoris\xE9es 
+        \r\n"
+    - type: 1
+      text: "Proc\xE9der \xE0 la v\xE9rification des zones de stockage ext\xE9rieures
+        \r\n"
+    - type: 1
+      text: "Signaler toute situation anormale, permettant une intervention rapide
+        avat qu\u2019un incident ne survienne \r\n"
+    - type: 2
+      text: "Vos avantages  \r\n"
+    - type: 1
+      text: "Tranquillit\xE9 d\u2019esprit avec un environnement s\xE9curis\xE9 \r\n"
+    - type: 1
+      text: "Surveillance proactive \r\n"
+    - type: 1
+      text: "Protection de vos infrastructures et de vos biens \r\n"
+    - type: 1
+      text: "D\xE9tection rapide de toute situation inhabituelle ou suspecte \r\n"
+    - type: 1
+      text: "Tra\xE7abilit\xE9 des actions \r\n"
   spacingOffset: 0
 --- !u!1001 &1573857735
 PrefabInstance:
@@ -20230,7 +20363,32 @@ MonoBehaviour:
   ParentArea: {fileID: 0}
   interestPointInfos:
     image: {fileID: 21300000, guid: cc883837318cde64a81c63ed25fe0a8e, type: 3}
-    infos: []
+    infos:
+    - type: 1
+      text: "Inspecter visuellement les points sensibles du site \r\n"
+    - type: 1
+      text: "Contr\xF4ler les \xE9l\xE9ments techniques d\xE9finis par le client
+        \r\n"
+    - type: 1
+      text: "R\xE9aliser des relev\xE9s de temp\xE9rature, de pression\u2026 \r\n"
+    - type: 1
+      text: "V\xE9rifier l\u2019absence de fuites d\u2019eau ou de produits dangereux 
+        \r\n"
+    - type: 1
+      text: "Mettre en place des mesures conservatoires en cas d\u2019anomalies \r\n"
+    - type: 2
+      text: "Vos avantages  \r\n"
+    - type: 1
+      text: "Diminution du risque de perte d\u2019exploitation \r\n"
+    - type: 1
+      text: "D\xE9tection rapide des dysfonctionnements ou anomalies \r\n"
+    - type: 1
+      text: "R\xE9duction des risques de sinistres et de non-conformit\xE9 "
+    - type: 1
+      text: "Grande flexibilit\xE9 pour s\u2019adapter \xE0 diff\xE9rents environnements
+        \r\n"
+    - type: 1
+      text: "El\xE9ments de preuve pour les assurances \r\n"
   spacingOffset: 0
 --- !u!1 &1636765842
 GameObject:
@@ -20797,7 +20955,35 @@ MonoBehaviour:
   ParentArea: {fileID: 0}
   interestPointInfos:
     image: {fileID: 21300000, guid: 57ddda09005d993469dafac21e7369ab, type: 3}
-    infos: []
+    infos:
+    - type: 1
+      text: "Intervenir sur site suite au d\xE9clenchement d\u2019une alarme \r\n"
+    - type: 1
+      text: "V\xE9rifier si l\u2019incident est av\xE9r\xE9 \r\n"
+    - type: 1
+      text: "Informer le Centre op\xE9rationnel de s\xE9curit\xE9 Securitas \r\n"
+    - type: 1
+      text: "Contacter les forces de l\u2019ordre \r\n"
+    - type: 1
+      text: "Mettre en place les mesures conservatoires n\xE9cessaires  "
+    - type: 1
+      text: "R\xE9diger un compte rendu d\u2019intervention  \r\n"
+    - type: 2
+      text: "Vos avantages  \r\n"
+    - type: 1
+      text: "Rapidit\xE9 d\u2019intervention assur\xE9e gr\xE2ce \xE0 la proximit\xE9
+        de nos bases de d\xE9part de nos v\xE9hicules de s\xE9curit\xE9 mobile avec
+        votre site \r\n"
+    - type: 1
+      text: "D\xE9tection pr\xE9coce d\u2019un sinistre \r\n"
+    - type: 1
+      text: "Pr\xE9sence dissuasive \r\n"
+    - type: 1
+      text: "Evite le surincident  \r\n"
+    - type: 1
+      text: "Mise en s\xE9curit\xE9 du site apr\xE8s incident \r\n"
+    - type: 1
+      text: "Constitution d\u2019\xE9l\xE9ments de preuve \r\n"
   spacingOffset: 0
 --- !u!1001 &1714995396
 PrefabInstance:
@@ -21001,7 +21187,27 @@ MonoBehaviour:
   ParentArea: {fileID: 0}
   interestPointInfos:
     image: {fileID: 21300000, guid: e92a7bb6e4f0c1d4da8c6daf7beac270, type: 3}
-    infos: []
+    infos:
+    - type: 1
+      text: "Contr\xF4ler que vos syst\xE8mes de s\xFBret\xE9 restent op\xE9rationnels 
+        \r\n"
+    - type: 1
+      text: "V\xE9rifier visuellement les installations et dispositifs de s\xFBret\xE9
+        de votre site  \r\n"
+    - type: 1
+      text: "Les d\xE9tecteurs intrusion \r\n"
+    - type: 1
+      text: "Les cam\xE9ras int\xE9rieures et ext\xE9rieures \r\n"
+    - type: 1
+      text: "Tous syst\xE8mes de s\xFBret\xE9  \r\n"
+    - type: 2
+      text: "Vos avantages  \r\n"
+    - type: 1
+      text: "D\xE9tection rapide des \xE9l\xE9ments g\xEAnants pouvant nuire au bon
+        fonctionnement du syst\xE8me et \xE0 la s\xFBret\xE9 des personnes et des
+        biens \r\n"
+    - type: 1
+      text: "Flexibilit\xE9 des horaires de v\xE9rification \r\n"
   spacingOffset: 0
 --- !u!1 &1745339521
 GameObject:
