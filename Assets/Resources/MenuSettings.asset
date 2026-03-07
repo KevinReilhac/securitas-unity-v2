@@ -57,3 +57,8 @@ MonoBehaviour:
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/PMI.unity
     title: P.M.I
+  - sceneReference:
+      m_SceneAsset: {fileID: 102900000, guid: b35f985efb170374c949dbc39399ad54, type: 3}
+      m_IsDirty: 0
+      m_ScenePath: Assets/Scenes/Telecom.unity
+    title: Telecom
