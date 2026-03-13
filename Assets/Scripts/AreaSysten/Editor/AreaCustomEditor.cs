@@ -16,6 +16,7 @@ namespace Spop.AreaSystem.Editors
         protected SerializedProperty cameraSpotProperty;
         protected SerializedProperty customDotPositionProperty;
         protected SerializedProperty eventsProperty;
+        protected SerializedProperty lineHeightOffsetProperty;
 
         protected virtual void OnEnable()
         {
@@ -28,7 +29,7 @@ namespace Spop.AreaSystem.Editors
             cameraSpotProperty = serializedObject.FindProperty("cameraSpot");
             customDotPositionProperty = serializedObject.FindProperty("customDotPosition");
             eventsProperty = serializedObject.FindProperty("events");
-
+            lineHeightOffsetProperty = serializedObject.FindProperty("lineHeightOffset");
             
         }
 
@@ -39,9 +40,17 @@ namespace Spop.AreaSystem.Editors
             DrawReferencesProperties();
 
             DrawSpace();
+
+            DrawUISettingsProperties();
             EditorGUILayout.PropertyField(eventsProperty);
 
             serializedObject.ApplyModifiedProperties();
+        }
+
+        protected virtual void DrawUISettingsProperties()
+        {
+            DrawHeader("UI Settings");
+            EditorGUILayout.PropertyField(lineHeightOffsetProperty);
         }
 
         protected virtual void DrawInfoProperties()

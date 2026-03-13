@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Spop.AreaSystem.UI
 {
@@ -12,15 +13,18 @@ namespace Spop.AreaSystem.UI
         [SerializeField] private TextMeshProUGUI descriptionText;
         [SerializeField] private TextMeshProUGUI subdescriptionText;
         [SerializeField] private Transform linesContainer;
+        [SerializeField] private VerticalLayoutGroup verticalLayoutGroup;
 
         [Header("Prefabs")]
         [SerializeField] private AreaPanelLine areaPanelLinePrefab;
 
         private List<AreaPanelLine> lines = new List<AreaPanelLine>();
+        private float defaultSpacing = 0f;
         public Action<baseArea> onLineClick;
 
         private void Awake()
         {
+            defaultSpacing = verticalLayoutGroup.spacing;
             DisableTemplateLines();
         }
 
@@ -28,6 +32,7 @@ namespace Spop.AreaSystem.UI
         {
             descriptionText.text = area.Description;
             subdescriptionText.text = area.Subdescription;
+            verticalLayoutGroup.spacing = defaultSpacing + area.LineHeightOffset;
 
             ClearLines();
 

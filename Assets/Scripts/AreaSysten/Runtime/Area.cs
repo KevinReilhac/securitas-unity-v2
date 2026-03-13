@@ -36,6 +36,9 @@ namespace Spop.AreaSystem
 
         //Events
         [SerializeField] private Events events;
+        
+        //UI Options
+        [SerializeField] private float lineHeightOffset = 0f;
 
         [HideInInspector] public baseArea ParentArea;
 
@@ -43,6 +46,7 @@ namespace Spop.AreaSystem
         public ACameraSpot CameraSpot => cameraSpot;
         public string Subtitle => subtitle;
         public Events Callbacks => events;
+        public float LineHeightOffset => lineHeightOffset;
 
         public string DisplayTitle => string.IsNullOrEmpty(displayTitle) ? areaName : displayTitle;
 
