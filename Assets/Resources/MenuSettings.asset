@@ -62,3 +62,8 @@ MonoBehaviour:
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/Telecom.unity
     title: Telecom
+  - sceneReference:
+      m_SceneAsset: {fileID: 102900000, guid: 0f8a3bf875ed2b64682893bc1593faa7, type: 3}
+      m_IsDirty: 0
+      m_ScenePath: Assets/Scenes/Industrie.unity
+    title: Industrie
