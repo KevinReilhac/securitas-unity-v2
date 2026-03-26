@@ -3,10 +3,10 @@ using System.Collections;
 
 public class DelayActivation : MonoBehaviour
 {
-    public GameObject targetObject; // Le GameObject à activer
-    public float delay = 2f;         // Délai en secondes
+    public GameObject targetObject;
+    public float delay = 2f;
 
-    void Start()
+    public void ActivateWithDelay()
     {
         StartCoroutine(ActivateAfterDelay());
     }

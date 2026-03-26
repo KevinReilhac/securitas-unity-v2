@@ -511,6 +511,7 @@ MonoBehaviour:
     onAfterAreaExit:
       m_PersistentCalls:
         m_Calls: []
+  lineHeightOffset: 0
   ParentArea: {fileID: 0}
   subAreas:
   - {fileID: 374697709}
@@ -1403,6 +1404,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  lineHeightOffset: 0
   ParentArea: {fileID: 0}
   interestPointInfos:
     image: {fileID: 21300000, guid: 495d711b94392104180775659c1e1a31, type: 3}
@@ -6147,6 +6149,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  lineHeightOffset: 0
   ParentArea: {fileID: 0}
   interestPointInfos:
     image: {fileID: 21300000, guid: cb2738b81cf4d7940853d93c258a3178, type: 3}
@@ -19542,6 +19545,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  lineHeightOffset: 0
   ParentArea: {fileID: 0}
   interestPointInfos:
     image: {fileID: 21300000, guid: d787b01b93d8d1941b598bc7b0c9e4be, type: 3}
@@ -20609,6 +20613,18 @@ PrefabInstance:
     - target: {fileID: 5813084510561671333, guid: e381b7749bd98ce4687453d823a6e588, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 179.999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022938785789097018, guid: e381b7749bd98ce4687453d823a6e588, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022938785789097018, guid: e381b7749bd98ce4687453d823a6e588, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1983
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022938785789097018, guid: e381b7749bd98ce4687453d823a6e588, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 68
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
