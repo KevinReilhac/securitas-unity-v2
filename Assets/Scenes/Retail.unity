@@ -4405,6 +4405,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1027921409203030615, guid: 13f4f0e445098764d854eee3514665f0, type: 3}
   m_PrefabInstance: {fileID: 3646160872747864871}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &295168719 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8603016657850414958, guid: 13f4f0e445098764d854eee3514665f0, type: 3}
+  m_PrefabInstance: {fileID: 3646160872747864871}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295168717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93e11d0661692ea43b9cc87e119c56a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DelayActivation
 --- !u!1001 &314082837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8944,6 +8955,18 @@ MonoBehaviour:
           m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 295168719}
+          m_TargetAssemblyTypeName: DelayActivation, Assembly-CSharp
+          m_MethodName: ActivateWithDelay
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -23501,7 +23524,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6955870548331329590, guid: 157c6715b6feeff4eb5d32f2919ee885, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.389
+      value: 17.424
       objectReference: {fileID: 0}
     - target: {fileID: 6955870548331329590, guid: 157c6715b6feeff4eb5d32f2919ee885, type: 3}
       propertyPath: m_LocalPosition.y

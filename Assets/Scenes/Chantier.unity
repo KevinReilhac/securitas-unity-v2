@@ -4481,19 +4481,19 @@ MonoBehaviour:
   orbitalData:
     useVerticalAngle: 1
     verticalAngle:
-      min: 1.8675632
-      max: 41.86756
-    useHorizontalAngle: 0
+      min: 13.573297
+      max: 74.17537
+    useHorizontalAngle: 1
     horizontalAngle:
-      min: -80
-      max: 80
+      min: -106.45669
+      max: 151.81102
     minDistance: 4.14
     distanceThikness: 16.42
     startPosXNormalized: 0.6776702
     startPosYNormalized: 0.4615912
     startPosDistNormalized: 0.103321075
-  xPosition: 127.92253
-  yPosition: 20.331211
+  xPosition: 80
+  yPosition: 20.364624
   normalizedDistance: 0.103321075
   moveSpeedMultiplier: 1
   zoomSpeedMultiplier: 1
@@ -20522,17 +20522,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3673547863707987685, guid: d2628c0a8194e4d46b754fa6af326d08, type: 3}
+      propertyPath: m_PlayableAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e2d3ddb750b5ee44c8cea68b183c9f1a, type: 2}
+    - target: {fileID: 3673547863707987685, guid: d2628c0a8194e4d46b754fa6af326d08, type: 3}
       propertyPath: m_SceneBindings.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3673547863707987685, guid: d2628c0a8194e4d46b754fa6af326d08, type: 3}
       propertyPath: m_SceneBindings.Array.data[1].key
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3724925526082438080, guid: e2d3ddb750b5ee44c8cea68b183c9f1a, type: 2}
     - target: {fileID: 3673547863707987685, guid: d2628c0a8194e4d46b754fa6af326d08, type: 3}
       propertyPath: m_SceneBindings.Array.data[1].value
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1481041769435377971}
     - target: {fileID: 4832171930810466028, guid: d2628c0a8194e4d46b754fa6af326d08, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -13.577
@@ -20562,6 +20566,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2628c0a8194e4d46b754fa6af326d08, type: 3}
+--- !u!95 &1481041769435377971 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 455905008328634982, guid: d2628c0a8194e4d46b754fa6af326d08, type: 3}
+  m_PrefabInstance: {fileID: 1481041769435377970}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6139535921560152200
 PrefabInstance:
   m_ObjectHideFlags: 0
