@@ -26363,20 +26363,20 @@ MonoBehaviour:
   orbitalData:
     useVerticalAngle: 1
     verticalAngle:
-      min: 12.1486435
+      min: 8.504056
       max: 70.462166
     useHorizontalAngle: 0
     horizontalAngle:
       min: -80
       max: 80
-    minDistance: 35.4
+    minDistance: 26.7
     distanceThikness: 44.6
-    startPosXNormalized: 0.27821514
-    startPosYNormalized: 0.062088083
-    startPosDistNormalized: 0.11796096
-  xPosition: -155.95752
-  yPosition: 12.629168
-  normalizedDistance: 0.11796096
+    startPosXNormalized: 0.30287296
+    startPosYNormalized: 0.08209507
+    startPosDistNormalized: 0.10925478
+  xPosition: -141.93147
+  yPosition: 13.590511
+  normalizedDistance: 0.10925478
   moveSpeedMultiplier: 1
   zoomSpeedMultiplier: 1
 --- !u!4 &1324834322
@@ -26388,7 +26388,7 @@ Transform:
   m_GameObject: {fileID: 1324834320}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -7.81, z: 0}
+  m_LocalPosition: {x: 0.1, y: -7.81, z: 3.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
