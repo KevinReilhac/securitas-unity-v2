@@ -67,3 +67,8 @@ MonoBehaviour:
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/Chantier.unity
     title: Chantier
+  - sceneReference:
+      m_SceneAsset: {fileID: 102900000, guid: c1982a3eefe7159478c138eeb99f155a, type: 3}
+      m_IsDirty: 0
+      m_ScenePath: Assets/Scenes/Securitas.unity
+    title: Securitas
