@@ -3,7 +3,62 @@ guid: 8d9aeadac9cf7174f86e65758859d749
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ch01_hair
+    second: {fileID: 2100000, guid: 2b461834a2ded6d41a8b543460ccec4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gate_perssonel
+    second: {fileID: 2100000, guid: 885593b62444da145a1054db94421c57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #993
+    second: {fileID: 2100000, guid: ac9eaad34cbe675499748b480ce59ba3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aceuille1
+    second: {fileID: 2100000, guid: f4983b608b24b9a4894d2d45096446dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aceuille2
+    second: {fileID: 2100000, guid: 2492129a12705fb4998bf94aa823aebe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: extraction
+    second: {fileID: 2100000, guid: cef9a01b1b3c93d4b8f2d94b577b0d8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grillage
+    second: {fileID: 2100000, guid: c1ce381c1e9904844a1bcd8c2ef169c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: logo
+    second: {fileID: 2100000, guid: a5d87579299265f4298395a45d102443, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mainbat
+    second: {fileID: 2100000, guid: 77376074398821c448ecf8c2800f2f74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: porte
+    second: {fileID: 2100000, guid: 5a8cc1edda05c574c9a45994537d009b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: room
+    second: {fileID: 2100000, guid: 118bac9df07d58a47bc37dc46e32af68, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
