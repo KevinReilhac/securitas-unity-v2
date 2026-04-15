@@ -72,3 +72,8 @@ MonoBehaviour:
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/Securitas.unity
     title: Securitas
+  - sceneReference:
+      m_SceneAsset: {fileID: 102900000, guid: 8fd1401475726a346949f7363b8b7bac, type: 3}
+      m_IsDirty: 0
+      m_ScenePath: Assets/Scenes/Data Center.unity
+    title: Data Center
