@@ -727,7 +727,7 @@ PrefabInstance:
     - target: {fileID: 3823644087854707247, guid: 072cfd94664a8e44ba18d11f24b42b9c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: f6e84fb20d67f8b4fb3f5ff27327ff84, type: 2}
+      objectReference: {fileID: 2100000, guid: 5d78f0a4c3209294fab25ff42afa2851, type: 2}
     - target: {fileID: 5783959103409757590, guid: 072cfd94664a8e44ba18d11f24b42b9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.136
@@ -67217,7 +67217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1836591084322184790, guid: 13f4f0e445098764d854eee3514665f0, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1836591084322184790, guid: 13f4f0e445098764d854eee3514665f0, type: 3}
       propertyPath: field of view
@@ -67269,7 +67269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6839653857668890378, guid: 13f4f0e445098764d854eee3514665f0, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6839653857668890378, guid: 13f4f0e445098764d854eee3514665f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -67289,7 +67289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8603016657850414958, guid: 13f4f0e445098764d854eee3514665f0, type: 3}
       propertyPath: delay
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

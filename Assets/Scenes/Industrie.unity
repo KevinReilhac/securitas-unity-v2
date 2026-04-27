@@ -4435,8 +4435,8 @@ MonoBehaviour:
   - {fileID: 1635003575}
   - {fileID: 1150209462}
   - {fileID: 1802960797}
-  description: 
-  subdescription: 
+  description: Services disponibles
+  subdescription: "Choisissez le service que vous souhaitez d\xE9couvrir."
 --- !u!4 &244408414
 Transform:
   m_ObjectHideFlags: 0
