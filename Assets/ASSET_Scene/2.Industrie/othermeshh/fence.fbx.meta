@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 7b8dc94371cfe0145be152692ac9a5f8
+guid: 2855cba4cd783034c8c91a427f66a847
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: roue securitas
-    second: {fileID: 2100000, guid: 725fbf5f89db3c64a92c4214ddadbc16, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: securitas bot
-    second: {fileID: 2100000, guid: 9fadadfa6f9d3a148a1c70d6f78a40be, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -104,11 +94,11 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 1
+  animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
