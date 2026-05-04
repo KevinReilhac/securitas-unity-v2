@@ -931,7 +931,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6182995228977500130, guid: 96f537e9b06de604f98318e7601ec5a5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.9
+      value: 20.849998
       objectReference: {fileID: 0}
     - target: {fileID: 6182995228977500130, guid: 96f537e9b06de604f98318e7601ec5a5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2772,7 +2772,7 @@ Transform:
   m_GameObject: {fileID: 154862733}
   serializedVersion: 2
   m_LocalRotation: {x: -0.5000007, y: 0.4999993, z: 0.4999993, w: 0.5000007}
-  m_LocalPosition: {x: -34.55, y: 0.11366, z: 24.11}
+  m_LocalPosition: {x: -34.55, y: 0.11366, z: 24.06}
   m_LocalScale: {x: 0.010001631, y: 0.010001631, z: 0.010885776}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5900,7 +5900,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &533397918
 Transform:
   m_ObjectHideFlags: 0
@@ -10765,7 +10765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6182995228977500130, guid: 96f537e9b06de604f98318e7601ec5a5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.89
+      value: 20.839998
       objectReference: {fileID: 0}
     - target: {fileID: 6182995228977500130, guid: 96f537e9b06de604f98318e7601ec5a5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11650,7 +11650,7 @@ Transform:
   m_GameObject: {fileID: 1118604164}
   serializedVersion: 2
   m_LocalRotation: {x: -0.5000007, y: 0.4999993, z: 0.4999993, w: 0.5000007}
-  m_LocalPosition: {x: -28.53, y: 0.11, z: 24.11}
+  m_LocalPosition: {x: -28.53, y: 0.11, z: 24.06}
   m_LocalScale: {x: 0.010001631, y: 0.010001631, z: 0.010885776}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22211,7 +22211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
   m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
+  m_AdditionalLightsShadowResolutionTier: 1
   m_CustomShadowLayers: 0
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
@@ -22238,7 +22238,7 @@ Light:
   serializedVersion: 12
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 9.6
+  m_Intensity: 4.79
   m_Range: 15.6
   m_SpotAngle: 145.78003
   m_InnerSpotAngle: 128.04724
@@ -25146,7 +25146,7 @@ Light:
   serializedVersion: 12
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.79
+  m_Intensity: 1
   m_Range: 15.6
   m_SpotAngle: 145.78003
   m_InnerSpotAngle: 128.04724
@@ -37408,7 +37408,7 @@ Transform:
   m_GameObject: {fileID: 2087215631}
   serializedVersion: 2
   m_LocalRotation: {x: -0.5000007, y: 0.4999993, z: 0.4999993, w: 0.5000007}
-  m_LocalPosition: {x: -31.52, y: 0.11, z: 24.11}
+  m_LocalPosition: {x: -31.52, y: 0.11, z: 24.06}
   m_LocalScale: {x: 0.010001631, y: 0.010001631, z: 0.010885776}
   m_ConstrainProportionsScale: 0
   m_Children: []

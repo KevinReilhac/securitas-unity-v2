@@ -31396,8 +31396,21 @@ MonoBehaviour:
   lineHeightOffset: 0
   ParentArea: {fileID: 0}
   interestPointInfos:
-    image: {fileID: 0}
-    infos: []
+    image: {fileID: 21300000, guid: c58ce378021907445a19046f1ebaad1c, type: 3}
+    infos:
+    - type: 0
+      text: "Le Centre Op\xE9rationnel Local constitue une base op\xE9rationnelle
+        de proximit\xE9 d\xE9di\xE9e \xE0 la coordination des v\xE9hicules et des
+        agents de s\xE9curit\xE9 mobile."
+    - type: 1
+      text: "Base implant\xE9e au plus pr\xE8s des sites de nos clients"
+    - type: 1
+      text: "R\xE9activit\xE9 optimale et d\xE9lais d\u2019intervention r\xE9duits\r\n"
+    - type: 1
+      text: "V\xE9hicules \xE9quip\xE9s et moyens de communication efficaces"
+    - type: 1
+      text: "Equipes de proximit\xE9 pour les contr\xF4les de s\xE9curit\xE9 n\xE9cessaires
+        \xE0 la protection des sites\r\n"
   spacingOffset: 0
 --- !u!1 &877623880
 GameObject:
@@ -37125,8 +37138,19 @@ MonoBehaviour:
   lineHeightOffset: 0
   ParentArea: {fileID: 0}
   interestPointInfos:
-    image: {fileID: 0}
-    infos: []
+    image: {fileID: 21300000, guid: b38ecaa90b89b74449d0044420616b63, type: 3}
+    infos:
+    - type: 0
+      text: "Sp\xE9cialiste de l\u2019accueil en entreprise, Securitas Accueil propose
+        des services pour offrir aux collaborateurs et aux visiteurs un accueil d\u2019excellence."
+    - type: 1
+      text: 15 agences en France
+    - type: 1
+      text: "Services professionnels d\u2019accueil ou d\u2019assistanat\r\n"
+    - type: 1
+      text: Profils multilingues
+    - type: 1
+      text: Valorisation de votre image
   spacingOffset: 0
 --- !u!1 &1024175574
 GameObject:
@@ -48775,10 +48799,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8285528658554423547, guid: 2cacdfb4f6c17574cb25e7eb1a4c5a3f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fa50f52ae5a686c44bfa4f985b96180a, type: 2}
     - target: {fileID: 919132149155446097, guid: 2cacdfb4f6c17574cb25e7eb1a4c5a3f, type: 3}
       propertyPath: m_Name
       value: idle
       objectReference: {fileID: 0}
+    - target: {fileID: 3102197598461991335, guid: 2cacdfb4f6c17574cb25e7eb1a4c5a3f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fa50f52ae5a686c44bfa4f985b96180a, type: 2}
+    - target: {fileID: 4015603512402054206, guid: 2cacdfb4f6c17574cb25e7eb1a4c5a3f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: fa50f52ae5a686c44bfa4f985b96180a, type: 2}
+    - target: {fileID: 6769863803743758771, guid: 2cacdfb4f6c17574cb25e7eb1a4c5a3f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c8ac7761d73c14e4e8804037861bfa7b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58997,7 +59037,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1552725319
 Transform:
   m_ObjectHideFlags: 0
@@ -67694,8 +67734,30 @@ MonoBehaviour:
   lineHeightOffset: 0
   ParentArea: {fileID: 0}
   interestPointInfos:
-    image: {fileID: 0}
-    infos: []
+    image: {fileID: 21300000, guid: 6aa63f2db4a85914a82e2f141042252e, type: 3}
+    infos:
+    - type: 0
+      text: "Des experts de la t\xE9l\xE9surveillance professionnelle au service
+        de la s\xE9curit\xE9 des sites"
+    - type: 1
+      text: "5 centres de t\xE9l\xE9surveillance certifi\xE9s APSAD P3 ou APSAD P5"
+    - type: 1
+      text: "Op\xE9rateurs de t\xE9l\xE9surveillance form\xE9s et certifi\xE9s pour
+        un accompagnement d\xE9di\xE9 et personnalis\xE9"
+    - type: 1
+      text: "Engagement sans faille et une disponibilit\xE9 24h/24 et 365 jours/an "
+    - type: 1
+      text: "Client unique avec des consignes sp\xE9cifiques que nous appliquons
+        avec la plus grande rigueur"
+    - type: 1
+      text: "Donn\xE9es r\xE9ceptionn\xE9es dans nos centres de t\xE9l\xE9surveillance
+        et imm\xE9diatement trait\xE9es par nos op\xE9rateurs de t\xE9l\xE9surveillance\r\n"
+    - type: 1
+      text: "Transmission des rapports de traitement des alarmes et des statistiques
+        pour analyser l\u2019activit\xE9 de votre site\r\n"
+    - type: 1
+      text: "Coordination des interventions sur d\xE9clenchement d\u2019alarme (vid\xE9o
+        ou physique)"
   spacingOffset: 0
 --- !u!1 &1838850101
 GameObject:
@@ -76973,8 +77035,22 @@ MonoBehaviour:
   lineHeightOffset: 0
   ParentArea: {fileID: 0}
   interestPointInfos:
-    image: {fileID: 0}
-    infos: []
+    image: {fileID: 21300000, guid: 20df299129a6c7947bcd131bb895bada, type: 3}
+    infos:
+    - type: 0
+      text: "Securitas propose une large gamme de programmes de formation adapt\xE9s
+        \xE0 toutes les entreprises afin de contribuer au mieux \xE0 la politique
+        de pr\xE9vention des risques professionnels, \xE0 la s\xE9curit\xE9 des salari\xE9s
+        et de l\u2019activit\xE9. \r\n"
+    - type: 1
+      text: "8 centres de formation en France certifi\xE9s Qualiopi "
+    - type: 1
+      text: '35 intervenants
+
+'
+    - type: 1
+      text: "62 formations en s\xFBret\xE9, en s\xE9curit\xE9 et en d\xE9veloppement
+        personnel\r\n"
   spacingOffset: 0
 --- !u!1 &2109298920
 GameObject:
