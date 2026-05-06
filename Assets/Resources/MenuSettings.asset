@@ -31,7 +31,7 @@ MonoBehaviour:
       m_SceneAsset: {fileID: 102900000, guid: 7fbc4ced3f20b2746a5fe505ee19504b, type: 3}
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/PMI.unity
-    title: Petite et moyenne industrie
+    title: Petite et moyenne industrie (PMI)
   - sceneReference:
       m_SceneAsset: {fileID: 102900000, guid: d9dea718c5dd8ee4c80f9f944c4fb355, type: 3}
       m_IsDirty: 0
@@ -76,4 +76,4 @@ MonoBehaviour:
       m_SceneAsset: {fileID: 102900000, guid: 8fd1401475726a346949f7363b8b7bac, type: 3}
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/Data Center.unity
-    title: Data Center
+    title: Data center
