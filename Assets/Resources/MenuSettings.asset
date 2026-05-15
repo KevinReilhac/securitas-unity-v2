@@ -31,7 +31,7 @@ MonoBehaviour:
       m_SceneAsset: {fileID: 102900000, guid: 7fbc4ced3f20b2746a5fe505ee19504b, type: 3}
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/PMI.unity
-    title: Petite et moyenne industrie (PMI)
+    title: Industrie (PMI)
   - sceneReference:
       m_SceneAsset: {fileID: 102900000, guid: d9dea718c5dd8ee4c80f9f944c4fb355, type: 3}
       m_IsDirty: 0
@@ -42,6 +42,11 @@ MonoBehaviour:
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/Transport et logistique.unity
     title: Transport et logistique
+  - sceneReference:
+      m_SceneAsset: {fileID: 102900000, guid: 8fd1401475726a346949f7363b8b7bac, type: 3}
+      m_IsDirty: 0
+      m_ScenePath: Assets/Scenes/Data Center.unity
+    title: Data center
   - sceneReference:
       m_SceneAsset: {fileID: 102900000, guid: 8e0b80ce9864fc5488c076328b483483, type: 3}
       m_IsDirty: 0
@@ -72,8 +77,3 @@ MonoBehaviour:
       m_IsDirty: 0
       m_ScenePath: Assets/Scenes/Securitas.unity
     title: Securitas
-  - sceneReference:
-      m_SceneAsset: {fileID: 102900000, guid: 8fd1401475726a346949f7363b8b7bac, type: 3}
-      m_IsDirty: 0
-      m_ScenePath: Assets/Scenes/Data Center.unity
-    title: Data center
