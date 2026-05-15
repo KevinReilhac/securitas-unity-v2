@@ -24,6 +24,7 @@ namespace Spop.CameraSystem.Inputs
         [SerializeField] private Slider animationSpeedSlider;
         [SerializeField] private TextMeshProUGUI activeCamera;
         [SerializeField] private TextMeshProUGUI targetCameraPosition;
+        [SerializeField] private Button quitButton;
 
         private StringBuilder debugTextBuilder = new StringBuilder();
         private float lastPinchValue;
@@ -53,6 +54,7 @@ namespace Spop.CameraSystem.Inputs
             animationLeftRightDelaySlider.onValueChanged.AddListener(OnAnimationLeftRightDelayChanged);
             animationSpeedSlider.onValueChanged.AddListener(OnAnimationSpeedChanged);
             CameraManager.instance.OnCameraSpotChanged += OnCameraChanged;
+            quitButton.onClick.AddListener(Quit);
 
             pinchSpeedSlider.value = CameraSystemSettings.Instance.PinchSpeedMultiplier;
             dragSpeedSlider.value = CameraSystemSettings.Instance.MoveSpeedMultiplier;
@@ -61,6 +63,12 @@ namespace Spop.CameraSystem.Inputs
             animationLeftRightDelaySlider.value = CameraSystemSettings.Instance.AnimationLeftRightDelayMultiplier;
             animationSpeedSlider.value = CameraSystemSettings.Instance.AnimationSpeedMultiplier;
             OnCameraChanged(CameraManager.instance.activeCameraSpot);
+        }
+
+        private void Quit()
+        {
+            Debug.Log("Quit");
+            Application.Quit();
         }
 
         private void OnCameraChanged(ACameraSpot spot)
@@ -98,6 +106,7 @@ namespace Spop.CameraSystem.Inputs
             animationDelaySlider.onValueChanged.RemoveListener(OnAnimationDelayChanged);
             animationLeftRightDelaySlider.onValueChanged.RemoveListener(OnAnimationLeftRightDelayChanged);
             animationSpeedSlider.onValueChanged.RemoveListener(OnAnimationSpeedChanged);
+            quitButton.onClick.RemoveListener(Quit);
         }
 
         private void OnAnimationDelayChanged(float value)
