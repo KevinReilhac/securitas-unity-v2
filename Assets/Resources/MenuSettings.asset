@@ -36,7 +36,7 @@ MonoBehaviour:
       m_SceneAsset: {fileID: 102900000, guid: d9dea718c5dd8ee4c80f9f944c4fb355, type: 3}
       m_IsDirty: 0
       m_ScenePath: "Assets/Scenes/D\xE9fense.unity"
-    title: "Base industrielles et technologies de d\xE9fense"
+    title: "Base industrielle et technologique de d\xE9fense"
   - sceneReference:
       m_SceneAsset: {fileID: 102900000, guid: a6cfe5a4fe238f5498984287507cb704, type: 3}
       m_IsDirty: 0

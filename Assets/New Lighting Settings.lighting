@@ -19,9 +19,9 @@ LightingSettings:
   m_LightmapMaxSize: 2048
   m_LightmapSizeFixed: 0
   m_UseMipmapLimits: 1
-  m_BakeResolution: 50
+  m_BakeResolution: 35
   m_Padding: 2
-  m_LightmapCompression: 2
+  m_LightmapCompression: 1
   m_LightmapPackingMode: 1
   m_LightmapPackingMethod: 0
   m_XAtlasPackingAttempts: 16384
