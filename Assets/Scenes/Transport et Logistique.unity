@@ -37083,11 +37083,10 @@ MonoBehaviour:
       text: "Contr\xF4ler les installations et dispositifs techniques de s\xE9curit\xE9
         obligatoires "
     - type: 1
-      text: "Respecter l\u2019article R. 4224-17 du Code du travail :\n   \u2022
-        Les affichages (r\xE8glement int\xE9rieur, consignes de s\xE9curit\xE9, etc.)
-        \r\n   \u2022 Les \xE9clairages de s\xE9curit\xE9 \r\n   \u2022 Les exutoires
-        de fum\xE9es \r\n   \u2022 Les extincteurs \r\n   \u2022 Les portes coupe-feu,
-        les issues de secours"
+      text: "Respecter l\u2019article R. 4224-17 du Code du travail :\n   - Les affichages
+        (r\xE8glement int\xE9rieur, consignes de s\xE9curit\xE9, etc.) \r\n   - Les
+        \xE9clairages de s\xE9curit\xE9 \r\n   - Les exutoires de fum\xE9es \r\n  
+        - Les extincteurs \r\n   - Les portes coupe-feu, les issues de secours"
     - type: 2
       text: Vos avantages
     - type: 1

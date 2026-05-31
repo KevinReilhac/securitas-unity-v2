@@ -34507,7 +34507,7 @@ MonoBehaviour:
     - type: 1
       text: "Renseigner les documents r\xE9glementaires S1A source, poste et S1B
         \r\n"
-    - type: 1
+    - type: 2
       text: "Vos avantages \r\n"
     - type: 1
       text: "R\xE9alisation des essais hebdomadaires  \r\n"
