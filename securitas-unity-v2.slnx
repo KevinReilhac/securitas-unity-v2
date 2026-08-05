@@ -1,0 +1,23 @@
+﻿<Solution>
+  <Project Path="OnScreenButtons.csproj" />
+  <Project Path="UniTask.csproj" />
+  <Project Path="UniTask.Linq.csproj" />
+  <Project Path="UniTask.Addressables.csproj" />
+  <Project Path="Unified.Universal.Blur.Editor.csproj" />
+  <Project Path="Unified.Universal.Blur.csproj" />
+  <Project Path="CameraSystem.Editor.csproj" />
+  <Project Path="DOTween.Modules.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="UniTask.TextMeshPro.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="CameraSystem.csproj" />
+  <Project Path="MenuSystem.csproj" />
+  <Project Path="AreaSystem.csproj" />
+  <Project Path="AreaSystem.Editor.csproj" />
+  <Project Path="DevLocker.Utils.SceneReference.csproj" />
+  <Project Path="AreaSystem.UI.csproj" />
+  <Project Path="CameraSystem.Inputs.csproj" />
+  <Project Path="UniTask.Editor.csproj" />
+  <Project Path="Common.csproj" />
+  <Project Path="UniTask.DOTween.csproj" />
+</Solution>
